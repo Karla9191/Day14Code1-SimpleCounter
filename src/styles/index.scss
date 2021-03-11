@@ -13,11 +13,24 @@
 */
 body{
 
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg");
     background-color: transparent;
+    background-attachment: fixed;
+    background-size: cover
+    
+
  
 
 }
+
+.count{
+    padding-top:200px;
+    padding-left: 500px;
+    text-align: center;
+}
 .calendar, .count1, .count2, .count3, .count4{
+
+  padding: 50px;
   width: 90px;
   height: 90px;
   background: lightgray;
@@ -34,7 +47,7 @@ body{
   text-align: center;
   margin: 30px;
   text-shadow: 1px 1px black;
-  -webkit-box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);
 }

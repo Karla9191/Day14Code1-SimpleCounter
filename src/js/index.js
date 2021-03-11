@@ -20,13 +20,10 @@ export function SecondsCounter(props) {
 			<div className="count2">{props.count2 % 10}</div>
 			<div className="count1">{props.count1 % 10}</div>
 		</div>
-		// counter main
 	);
 }
 
 SecondsCounter.propTypes = {
-	// You can declare that a prop is a specific JS primitive. By default, these
-	// are all optional.
 	count4: PropTypes.number,
 	count3: PropTypes.number,
 	count2: PropTypes.number,
@@ -34,7 +31,6 @@ SecondsCounter.propTypes = {
 };
 
 let count = 0;
-//render your react application
 setInterval(function() {
 	const c4 = Math.floor(count / 1000);
 	const c3 = Math.floor(count / 100);
